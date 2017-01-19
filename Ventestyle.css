@@ -1,0 +1,113 @@
+/*////////////////////////Fonts//////////////////*/
+@font-face {
+font-family: 'SocialIconsPro';
+src: url(fonts/Social_Icons_Pro.ttf);
+}
+
+@font-face {
+	font-family: 'SocialCircles';
+	src: url(fonts/Social_Circles.otf);
+}
+
+@font-face {
+	font-family: 'socialFont';
+	src : url(fonts/social_font.ttf);
+}
+
+@font-face {
+	font-family: 'social_shapes';
+	src: url(fonts/social_shapes.ttf);
+}
+/*///////////////////////BODY//////////////////*/
+html {
+	width:100%;
+	background-color: #FEFEE2;
+	
+}
+.hr-section {
+	border-width:2px;
+	max-width:98%;
+	border-color: #595759;
+	
+}
+
+
+/*///////////////////////NAVBAR/////////////////*/
+
+nav {
+	color:#FEFEE2;
+	font-family:"josefin-sans";
+	font-weight:bold;
+}
+
+.navbar.navbar-default {
+	background-color:white;
+	border-color:bold;
+}
+
+nav ul li {
+	margin-right: 25px;
+}
+.Logo {
+	width:280px;
+	height:50px;
+}
+
+
+
+
+
+/*////////////////////////BLOC IMAGES///////////////////////////////////*/
+.row{
+	margin-top:150px;
+}
+.imgmar{
+	width:247px;
+	height:150px;
+
+}
+
+.bloc{
+	width: 250px;
+	height:220px;
+	float:left;
+	margin-left:5px;
+	font-family: 'OpenSans-Light';
+}
+
+.bloc:hover{
+	border:1px solid #760059;
+}
+
+
+.bloc h5{
+	color:black;
+}
+
+.bloc p{
+	color:#760059;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////Section 8 Contact//////////////////////////////*/
+.hr-contact {
+	border-width:2px;
+	max-width:20%;
+	border-color: red;
+}
+
+#section8 p a {
+	font-family: 'SocialCircles';
+	font-size: 30px;
+	color:#595759;
+}
